@@ -41,6 +41,10 @@
 
 /* Navbar */
 
+nav {
+  z-index: 2;
+}
+
 :root {
   --primary-white: #fff;
   --primary--blue: #008080;
@@ -72,5 +76,68 @@ nav ul li {
 
 .navbar-nav > li > a:hover {
   border-top: 0.1875rem solid var(--primary--blue);
+}
 
+/* Header */
+
+.header-wrapper {
+  position: relative;
+  background: url(pc-background.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.main-info {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+  z-index: 1;
+}
+
+.main-info h1 {
+  color: var(--primary--blue);
+  text-transform: uppercase;
+}
+
+/* Typed Text */
+
+.typed-text {
+  font-size: 2rem;
+ 
+}
+
+/* Button main */
+.btn-main {
+  border: 1px solid var(--primary--blue);
+  text-transform:uppercase;
+  text-decoration: none;
+  border-radius: 0;
+  padding: 10px 12px 12px 12px;
+  color: #fff;
+  margin: 1.5rem;
+}
+
+.btn-main:hover {
+  text-decoration: none;
+  background-color: var(--primary--blue);
+  transition: .2s ease-in-out;
+}
+
+
+/* Particles */
+
+.tsparticles-canvas-el {
+  position: absolute;
+  height: 100vh ;
+  width: 100vw;
+  z-index: 1;
 }
