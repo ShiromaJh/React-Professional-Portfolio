@@ -1,4 +1,5 @@
 import React from "react";
+import Projects from "./Projects";
 
 const Navbar = () => {
   return (
@@ -16,7 +17,7 @@ const Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon" style={{ color: "white" }}></span>
+            <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -27,7 +28,7 @@ const Navbar = () => {
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href={Projects}>
                 Projects
               </a>
             </li>
