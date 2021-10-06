@@ -272,3 +272,32 @@ nav ul li {
   font-weight: 900;
   color: green;
 }
+
+
+/* Footer */
+
+.footer {
+  background: black;
+  color: #008080;
+  padding: 3rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #008080;
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.footer p {
+  margin-bottom: 0;
+}
+
+.smicon {
+  margin-left: 100%;
+  margin-bottom: -1rem;
+  margin-top: 1rem;
+}

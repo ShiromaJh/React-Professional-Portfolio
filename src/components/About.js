@@ -3,7 +3,7 @@ import author from "../components/me.JPG";
 
 const About = () => {
   return (
-    <div className="container-about">
+    <div id="about" className="container-about">
       <div className="row">
         <div className="col-lg-6 col-12">
           <div className="phota-wrap">

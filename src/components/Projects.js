@@ -6,7 +6,7 @@ import CHAR from "../components/character.jpg";
 
 function Projects() {
   return (
-    <div className="projects">
+    <div id="projects"className="projects">
       <div className="py-5">
         <div className="container"></div>
         <div className="row">

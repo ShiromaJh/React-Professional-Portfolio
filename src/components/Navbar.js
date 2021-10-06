@@ -1,5 +1,5 @@
 import React from "react";
-import Projects from "./Projects";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   return (
@@ -17,25 +17,25 @@ const Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-            <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">
+              <Link smooth={true} to="about" class="nav-link" href="#">
                 Home <span class="sr-only"></span>
-              </a>
+              </Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href={Projects}>
+              <Link smooth={true} to="projects" class="nav-link" href="#">
                 Projects
-              </a>
+              </Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <Link smooth={true} to="contact" class="nav-link" href="#">
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
