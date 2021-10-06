@@ -201,3 +201,74 @@ nav ul li {
   margin-top: 5%;
   margin-left: -14rem;
 }
+
+
+/* contact */
+
+.contacts {
+  background: var(--primary-white);
+  padding: 3rem 0 ;
+}
+
+.contacts h1 {
+  color: var(--primary--blue);
+  padding: 1.3rem;
+  text-transform: uppercase;
+}
+
+.contacts p {
+  color: var(--primary--blue);
+  font-size: 1.2rem;
+}
+
+/* contact input */
+
+.contacts input , .contacts textarea {
+  width: 100%;
+  box-sizing: border-box;
+  background: none;
+  resize: none;
+  border: 0;
+  border-bottom: 2px solid var(--primary--blue);
+  border-radius: 0;
+  color: var(--primary--blue);
+  outline: 0 !important; 
+  box-shadow: none !important;
+  margin-bottom: 1rem;
+  padding-left: 0!important;
+
+}
+
+.contact-btn {
+  border: 1px solid var(--primary--blue);
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 0;
+  padding: 10px 12px 12px 12px;
+  color: var(--primary-white);
+  margin: 1.5rem;
+  background: var(--primary--blue);
+  margin: 1rem 0 0 0 ;
+  width: 100%;
+}
+
+.contacts .container {
+  padding: 4rem 0;
+}
+
+.contacts input:focus, .contacts textarea:focus {
+  background: transparent;
+  color: var(--primary--blue);
+  border-bottom:0.125rem solid var(--primary--blue);
+}
+
+.contacts textarea {
+  height: 12.4rem !important;
+  /* margin: 2rem 0; */
+}
+
+
+.success-message {
+  font-weight: 900;
+  color: green;
+}
