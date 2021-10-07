@@ -10,8 +10,8 @@ const Header = () => {
           className="typed-text"
           strings={[
             "Full Stack Developer",
-            "Music",
-            "Gaming",
+            "Musician",
+            "Gamer",
             "Computer Building",
           ]}
           typeSpeed={40}
