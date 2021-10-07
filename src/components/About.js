@@ -6,7 +6,7 @@ const About = () => {
     <div id="about" className="container-about">
       <div className="row">
         <div className="col-lg-6 col-12">
-          <div className="phota-wrap">
+          <div className="phota-wrap mb-5">
             <img className="profile-img" src={author} alt="me..."></img>
           </div>
         </div>

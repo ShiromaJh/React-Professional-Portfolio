@@ -6,22 +6,28 @@ import CHAR from "../components/character.jpg";
 
 function Projects() {
   return (
-    <div id="projects"className="projects">
+    <div id="projects" className="projects">
       <div className="py-5">
         <div className="container"></div>
         <div className="row">
-          <div className="col-md-3 col-sm-6">
+          <div id="img1" className="col-md-3 col-sm-6">
             <div className="box">
               <img className="img-project" src={MF} alt="mf..."></img>
               <h3>Movie Fusion</h3>
-              <h6> Modern Web App that fetches information on movies and TV shows</h6>
-              <a href="https://github.com/ShiromaJh/Movie-Fusion" className="btn-main">
+              <h6>
+                {" "}
+                Modern Web App that fetches information on movies and TV shows
+              </h6>
+              <a
+                href="https://github.com/ShiromaJh/Movie-Fusion"
+                className="btn-main"
+              >
                 Repo
               </a>
             </div>
           </div>
           {/* */}
-          <div className="col-md-3 col-sm-6">
+          <div id="img2" className="col-md-3 col-sm-6">
             <div className="box">
               <img className="img-project" src={SKB} alt="skb..."></img>
               <h3>SKB</h3>
@@ -32,22 +38,32 @@ function Projects() {
             </div>
           </div>
           {/* */}
-          <div className="col-md-3 col-sm-6">
+          <div id="img3" className="col-md-3 col-sm-6">
             <div className="box">
-              <img className="img-project-bse" src={BSE} alt="bse..."></img>
+              <img className="img-project" src={BSE} alt="bse..."></img>
               <h3>Book Search Engine</h3>
-              <h6> React.JS app designed for searching and saving your favorite books</h6>
-              <a href="https://github.com/ShiromaJh/Book-Search-Enginev2.0" className="btn-main">
+              <h6>
+                {" "}
+                React.JS app designed for searching and saving your favorite
+                books
+              </h6>
+              <a
+                href="https://github.com/ShiromaJh/Book-Search-Enginev2.0"
+                className="btn-main"
+              >
                 Repo
               </a>
             </div>
           </div>
-          <div className="col-md-3 col-sm-6">
+          <div id="img4" className="col-md-3 col-sm-6">
             <div className="box">
-              <img className="img-project-bse" src={CHAR} alt="bse..."></img>
+              <img className="img-project" src={CHAR} alt="bse..."></img>
               <h3>Characterholic</h3>
               <h6>Character creation app for DnD</h6>
-              <a href="https://github.com/dylgrn/Chacterholic" className="btn-main">
+              <a
+                href="https://github.com/dylgrn/Chacterholic"
+                className="btn-main"
+              >
                 Repo
               </a>
             </div>
