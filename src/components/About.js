@@ -13,7 +13,7 @@ const About = () => {
         <div className="col-lg-6 col-xm-12">
           <h1 className="about-header">About Me</h1>
           <p className="about-text">
-            Hello I am Justin and I am 21 years old! I am a recent graduate of
+            Hello I am Justin and I am 22 years old! I am a recent graduate of
             the Full Stack Coding Bootcamp at the University of Texas at Austin.
             I have experience in languages such as HTML, React.js and Bootstrap
             to build applications such as the one your viewing right now! I have
